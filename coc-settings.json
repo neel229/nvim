@@ -8,14 +8,26 @@
     "python",
     "javascriptreact",
     "typescript.tsx",
-    "graphql"
+    "graphql",
+    "go"
   ],
 
+  // explorer
+  "explorer.width": 30,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": true,
+  "explorer.keyMappings": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  },
+
+  // Python setup
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
 
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/utils/snips"],
 
+  // C++ and Golang setup
   "languageserver": {
     "ccls": {
       "command": "ccls",
@@ -30,6 +42,11 @@
           "snippetSupport": true
         }
       }
+    },
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"]
     }
   }
 }

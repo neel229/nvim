@@ -9,6 +9,7 @@ Plug 'vim-airline/vim-airline' "Better color schema for the status line.
 Plug 'vim-airline/vim-airline-themes' "Themes for airline.
 Plug 'scrooloose/nerdcommenter' "Easily comment out selected text. 
 Plug 'sheerun/vim-polyglot'
+Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 
 " JavaScript Related Plugins
 Plug 'pangloss/vim-javascript'
@@ -37,14 +38,6 @@ Plug 'rhysd/vim-clang-format'
 " Python Plugin
 "Plug 'davidhalter/jedi-vim' 
 
-"NerdTree extensions.
-"Plug 'tsony-tsonev/nerdtree-git-plugin'
-Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plug 'ryanoasis/vim-devicons'
-
-"File Explorer
-Plug 'scrooloose/nerdtree'
 
 "Fuzzy search
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
