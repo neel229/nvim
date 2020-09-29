@@ -3,13 +3,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 " Utility Plugins
 Plug 'tpope/vim-surround' "Surrounds text with quotes, brackets, etc.
 Plug 'jiangmiao/auto-pairs' "Auto pairs for quotes, brackets, etc.
-Plug 'joshdick/onedark.vim' "Atom One Dark theme for nvim.
 Plug 'morhetz/gruvbox' "Gruvbox retro theme
 Plug 'vim-airline/vim-airline' "Better color schema for the status line.
 Plug 'vim-airline/vim-airline-themes' "Themes for airline.
 Plug 'scrooloose/nerdcommenter' "Easily comment out selected text. 
 Plug 'sheerun/vim-polyglot'
-Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+Plug 'ryanoasis/vim-devicons'
+Plug 'kevinhwang91/rnvimr'
 
 " JavaScript Related Plugins
 Plug 'pangloss/vim-javascript'
