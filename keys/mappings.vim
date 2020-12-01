@@ -9,8 +9,8 @@ nnoremap <M-h>    :vertical resize -2<CR>
 nnoremap <M-l>    :vertical resize +2<CR>
 
 " Easily escape
-inoremap jj <Esc>
-inoremap kk <Esc>
+inoremap jk <Esc>
+inoremap kj <Esc>
 
 " Easy CAPS
 inoremap <c-u> <ESC>viwUi
