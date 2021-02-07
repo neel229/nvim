@@ -45,5 +45,3 @@ nnoremap <Leader>O O<Esc>^Da
 
 " Easily toggle paste mode
 set pastetoggle=<F3>
-
-

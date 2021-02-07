@@ -2,9 +2,5 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/keys/mappings.vim
 source $HOME/.config/nvim/plug-config/coc.vim
-source $HOME/.config/nvim/plug-config/fzf.vim
-"source $HOME/.config/nvim/themes/gruvbox.vim
 source $HOME/.config/nvim/themes/vim-material.vim
 source $HOME/.config/nvim/themes/lightline.vim
-"source $HOME/.config/nvim/themes/two-firewatch.vim
-source $HOME/.config/nvim/plug-config/rnvimr.vim
