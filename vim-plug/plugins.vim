@@ -35,5 +35,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Go Autocompletion
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
+"Solidity Autocompletion
+Plug 'TovarishFin/vim-solidity'
+
 call plug#end()
 

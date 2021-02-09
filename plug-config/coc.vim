@@ -182,6 +182,7 @@ nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 nnoremap <leader>fl <cmd>Telescope git_files<cr>
 
 let g:sql_type_default = 'pgsql'
+let g:polyglot_disabled = ['solidity']
 
 "Go settings
 let g:go_highlight_functions = 1
