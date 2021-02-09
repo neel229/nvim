@@ -7,6 +7,11 @@ Plug 'scrooloose/nerdcommenter' "Easily comment out selected text.
 Plug 'sheerun/vim-polyglot'
 Plug 'itchyny/lightline.vim'
 Plug 'hzchirs/vim-material'
+Plug 'evanleck/vim-svelte'
+Plug 'codechips/coc-svelte', {'do': 'npm install'}
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'lifepillar/pgsql.vim'
+
 
 " NERDTree Plugins
 Plug 'Xuyuanp/nerdtree-git-plugin' "git integration
@@ -27,8 +32,8 @@ Plug 'junegunn/gv.vim'
 "Intellisense Plugins
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" Golang Plugin
-Plug 'fatih/vim-go' "Golang autocompletion and other features. 
+"Go Autocompletion
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 call plug#end()
 
