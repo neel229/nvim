@@ -7,10 +7,15 @@ Plug 'scrooloose/nerdcommenter' "Easily comment out selected text.
 Plug 'sheerun/vim-polyglot'
 Plug 'itchyny/lightline.vim'
 Plug 'hzchirs/vim-material'
-Plug 'evanleck/vim-svelte'
-Plug 'codechips/coc-svelte', {'do': 'npm install'}
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'lifepillar/pgsql.vim'
+Plug 'hugolgst/vimsence'
+Plug 'morhetz/gruvbox'
+Plug 'drewtempelmeyer/palenight.vim'
+Plug 'arcticicestudio/nord-vim'
+Plug 'rust-lang/rust.vim'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'christianchiarulli/nvcode-color-schemes.vim'
 
 
 " NERDTree Plugins

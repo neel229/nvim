@@ -1,4 +1,7 @@
 {
+  "coc.preferences.colorSupport": true,
+  "coc.preferences.hoverTarget": "float",
+  "coc.preferences.enableFloatHighlight": true,
   "suggest.noselect": false,
   "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
