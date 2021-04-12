@@ -5,9 +5,11 @@ source $HOME/.config/nvim/keys/mappings.vim
 source $HOME/.config/nvim/plug-config/coc.vim
 "source $HOME/.config/nvim/themes/vim-material.vim
 "source $HOME/.config/nvim/themes/palenight.vim
+source $HOME/.config/nvim/themes/papercolor.vim
 "source $HOME/.config/nvim/themes/gruvbox.vim
 "source $HOME/.config/nvim/themes/nord.vim
-source $HOME/.config/nvim/themes/lightline.vim
+"source $HOME/.config/nvim/themes/lightline.vim
+luafile ~/.config/nvim/themes/galaxyline.lua
 
 lua << EOF
 require'nvim-treesitter.configs'.setup {
@@ -19,15 +21,15 @@ require'nvim-treesitter.configs'.setup {
 }
 EOF
 
-" configure nvcode-color-schemes
-let g:nvcode_termcolors=256
+"" configure nvcode-color-schemes
+"let g:nvcode_termcolors=256
 
-syntax on
-colorscheme nvcode " Or whatever colorscheme you make
+"syntax on
+"colorscheme OceanicNext " Or whatever colorscheme you make
 
 
-" checks if your terminal has 24-bit color support
-if (has("termguicolors"))
-    set termguicolors
-    hi LineNr ctermbg=NONE guibg=NONE
-endif
+"" checks if your terminal has 24-bit color support
+"if (has("termguicolors"))
+    "set termguicolors
+    "hi LineNr ctermbg=NONE guibg=NONE
+"endif

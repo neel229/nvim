@@ -220,10 +220,6 @@ let g:vimsence_editing_state = 'Working on: {}'
 let g:vimsence_file_explorer_text = 'Vimspector On'
 let g:vimsence_file_explorer_details = 'Searching...'
 
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
