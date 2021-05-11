@@ -1,15 +1,21 @@
-let g:polyglot_disabled = ['solidity']
-source $HOME/.config/nvim/vim-plug/plugins.vim
-source $HOME/.config/nvim/general/settings.vim
-source $HOME/.config/nvim/keys/mappings.vim
-source $HOME/.config/nvim/plug-config/coc.vim
-"source $HOME/.config/nvim/themes/vim-material.vim
-"source $HOME/.config/nvim/themes/palenight.vim
-source $HOME/.config/nvim/themes/papercolor.vim
-"source $HOME/.config/nvim/themes/gruvbox.vim
-"source $HOME/.config/nvim/themes/nord.vim
-"source $HOME/.config/nvim/themes/lightline.vim
-luafile ~/.config/nvim/themes/galaxyline.lua
+source $HOME/.config/nvim/sets.vim
+source $HOME/.config/nvim/remaps.vim
+source $HOME/.config/nvim/plugins.vim
+source $HOME/.config/nvim/plug-config/extras.vim
+source $HOME/.config/nvim/theme.vim
+
+luafile ~/.config/nvim/galaxyline.lua
+luafile ~/.config/nvim/plug-config/presence.lua
+luafile ~/.config/nvim/plug-config/telescope.lua
+luafile ~/.config/nvim/lua/plugins/compe-config.lua
+luafile ~/.config/nvim/lua/lsp/go.lua
+luafile ~/.config/nvim/lua/lsp/typescript.lua
+"luafile ~/.config/nvim/lua/plugins/saga.lua
+
+let g:vimwiki_list = [{'path': '~/vimwiki/',
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
+
+let g:neoformat_only_msg_on_error = 1
 
 lua << EOF
 require'nvim-treesitter.configs'.setup {
