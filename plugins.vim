@@ -25,6 +25,7 @@ Plug 'vimwiki/vimwiki'
 Plug 'iamcco/markdown-preview.vim'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'sbdchd/neoformat'
+Plug 'maxmellon/vim-jsx-pretty'
 
 
 "Treesitter
@@ -52,9 +53,10 @@ Plug 'tpope/vim-rhubarb'
 Plug 'junegunn/gv.vim'
 
 
-"Go, Rust
+"Go, Rust, Java
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'rust-lang/rust.vim'
+Plug 'mfussenegger/nvim-jdtls'
 
 
 call plug#end()

@@ -9,6 +9,7 @@ luafile ~/.config/nvim/plug-config/presence.lua
 luafile ~/.config/nvim/plug-config/telescope.lua
 luafile ~/.config/nvim/lua/plugins/compe-config.lua
 luafile ~/.config/nvim/lua/lsp/go.lua
+luafile ~/.config/nvim/lua/lsp/c.lua
 luafile ~/.config/nvim/lua/lsp/typescript.lua
 "luafile ~/.config/nvim/lua/plugins/saga.lua
 

@@ -78,8 +78,4 @@ nnoremap <C-l> <C-w>l
 " Easily toggle paste mode
 set pastetoggle=<F3>
 
-"Run a formatter on save
-augroup fmt
-  autocmd!
-  au BufWritePre * try | undojoin | Neoformat | catch /^Vim\%((\a\+)\)\=:E790/ | finally | silent Neoformat | endtry
-augroup END
+autocmd BufWritePre,TextChanged,InsertLeave *.ts Prettier
