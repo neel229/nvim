@@ -24,6 +24,7 @@ if has("nvim")
   Plug 'nvim-telescope/telescope.nvim'
   Plug 'preservim/nerdcommenter'
   Plug 'psliwka/vim-smoothie' 
+  Plug 'overcache/NeoSolarized'
 endif
 
 call plug#end()

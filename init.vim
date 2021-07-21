@@ -9,4 +9,7 @@ runtime ./maps.vim
 
 set termguicolors
 colorscheme gruvbox
+"let g:neosolarized_contrast = "high"
+"colorscheme NeoSolarized
+hi SignColumn guibg=none
 highlight Normal guibg=none
